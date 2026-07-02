@@ -1,36 +1,36 @@
-//base by Tech-God
+//base by ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
+//TIKTOK: @ayesha.bibi.40
+//Instagram: ayeshabibi011
+//Telegram: t.me/ayeshabibi1111
 //GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//WhatsApp: +923147375840
+//want more free bot scripts? subscribe to my WhatsApp channel: https://whatsapp.com/channel/0029Vb7qmxVG8l5LP0E9w61H
 
 const fs = require('fs')
 const chalk = require('chalk')
 
 //contact details
-global.ownernomer = "916378704507"
-global.ownername = "AASHISH"
-global.ytname = "YT: SHADOW STARCORE"
-global.socialm = "GitHub: dark-tech-zone"
-global.location = "India, Delhi, city"
+global.ownernomer = "923147375840"
+global.ownername = "ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ"
+global.tiktokname = "Tiktok: ayesha bibi"
+global.socialm = "Tiktok: @ayesha.bibi.40"
+global.location = "Pakistan, Peshawar, city"
 
-global.ownernumber = '916378704507'  //creator number
-global.ownername = 'AASHISH' //owner name
-global.botname = 'AASHISH ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
+global.ownernumber = '923147375840'  //creator number
+global.ownername = 'ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ' //owner name
+global.botname = 'ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
 
 //sticker details
-global.packname = 'Sticker By'
-global.author = 'AASHISH\n\nContact: +919310763037'
+global.packname = 'Sticker Byᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ'
+global.author = 'ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ\n\nContact: +923147375840'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "Tech God Bot Inc."
+global.wm = "ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ Bot Inc."
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029Va9Ufzi8kyyEnEHvOm1h'
+global.link = 'https://whatsapp.com/channel/0029Vb7qmxVG8l5LP0E9w61H'
 
 //custom prefix
 global.prefa = ['.']
@@ -38,7 +38,7 @@ global.prefa = ['.']
 //false=disable and true=enable
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
-global.autorecordtype = true //auto typing + recording
+global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
