@@ -1,11 +1,11 @@
-//base by Tech-God
+//base by ᵃʸᵉˢʰᵃ ᵇⁱᵇⁱ
 //re-upload? recode? copy code? give credit ya :)
-//YouTube: @techgod143
-//Instagram: techgod143
-//Telegram: t.me/techgod143
+//tiktok: @ayesha.bibi.40
+//Instagram: ayeshabibi011
+//Telegram: t.me/ayeshabibi1111
 //GitHub: @techgod143
-//WhatsApp: +917466008456
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@techgod143
+//WhatsApp: +923147375840
+//want more free bot scripts? subscribe to my WhatsApp channel: https://whatsapp.com/channel/0029Vb7qmxVG8l5LP0E9w61H
 
 require('./settings')
 const pino = require('pino')
@@ -32,7 +32,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "917466008456"
+let phoneNumber = "923147375840"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -82,14 +82,14 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +916909137213 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +923147375840 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +916909137213")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923147375840")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +916909137213 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +923147375840 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -178,8 +178,8 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
             console.log(chalk.cyan(`< ================================================== >`))
 	        console.log(chalk.magenta(`\n${themeemoji} YT CHANNEL: Tech-God`))
             console.log(chalk.magenta(`${themeemoji} GITHUB: techgod143 `))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @tecjgod143 `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 917466008456`))
+            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: @ayeshabibi011 `))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 923147375840`))
             console.log(chalk.magenta(`${themeemoji} CREDIT: Tech God Sir\n`))
         }
         if (
